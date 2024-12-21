@@ -4,16 +4,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+/*
 header {
-    margin: 12px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: black;
+    background-color: #201d39;
     color: azure;
     padding: 15px 20px;
-    border-radius: 12px;
-}
+}   
 
 header h1 {
     padding-right: 12px;
@@ -21,25 +20,109 @@ header h1 {
 }
 
 img{
-    width: 70%;
-    height: 60%;
-    border-radius: 20%;
-    margin: 30px;
+    width: 50%;
+    height: 50%;
+    border-radius: 80%;
+    margin: 90px;
 }
 .imagen{
     width: 50%;
 }
 .contenido{
     width: 50%;
-    margin: 20px;
+    padding-bottom: 120px;
+}
+
+.contenido h1 {
+    font-size: 70px;
+}
+.contenido h3 {
+    font-size: 25px;
+}
+.contenido p {
+    font-size: 20px;
 }
 
 .container{
     color: azure;
-    background-color: black;
-    margin: 12px;
+    background-color: #1b1c2e;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 12px;
+}
+
+.containerdos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #201d39;
+    color: azure;
+    padding: 15px 20px;
+}
+*/
+@media only screen and (max-width:767px){
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #201d39;
+        color: azure;
+        padding: 10px 20px;
+    } 
+    header h1 {
+        font-size: 20px;
+    } 
+    .pdf{
+        background: none;
+        border: aqua solid 1px;
+        border-radius: 8px;
+        text-align: center;
+        color: aqua;
+    }
+    .pdf:hover{
+        background-color: aqua;
+        color: black;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+        border-radius: 80%;
+        margin: 20px;
+    }
+    .container{
+        color: azure;
+        background-color: #1b1c2e;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .contenido{
+        margin: 20px;
+    }
+    .containerdos{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #201d39;
+        color: azure;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .contenido h1 {
+        color: aqua;       
+    }
+    .containertres{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #1b1c2e;
+        color: azure;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    footer{
+        padding: 10px;
+        color: whitesmoke;
+        background-color: rgb(32, 32, 32);
+    }
 }
