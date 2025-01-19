@@ -60,6 +60,86 @@ img{
     padding: 15px 20px;
 }
 */
+@media only screen and (min-width:992px) and (max-width:1199px){
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #201d39;
+        color: azure;
+        padding: 10px 20px;
+    } 
+    header h1 {
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+    .pdf{
+        background: none;
+        border: aqua solid 1px;
+        border-radius: 8px;
+        text-align: center;
+        color: aqua;
+    }
+    .pdf:hover{
+        background-color: aqua;
+        color: black;
+    }
+    img{
+        width: 140%;
+        height: 140%;
+        border-radius: 80%;
+        margin: 90px;
+    }
+    .container{
+        color: azure;
+        background-color: #1b1c2e;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30%;
+    }
+    .contenido h1 {
+        font-size: 40px;
+        color: aqua; 
+    }
+    .contenido h3 {
+        font-size: 32px;
+    }
+    .contenido p {
+        font-size: 24px;
+    }
+    .contenido{
+        margin: 20px;
+    }
+    .containerdos{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #201d39;
+        color: azure;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .containertres{
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #1b1c2e;
+        color: azure;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .icon img{
+        width: 18%;
+        height: 18%;
+    }
+    footer{
+        padding: 10px;
+        color: whitesmoke;
+        background-color: rgb(32, 32, 32);
+    }
+}
+
 @media only screen and (max-width:767px){
 
     header {
@@ -119,6 +199,10 @@ img{
         color: azure;
         padding: 15px 20px;
         text-align: center;
+    }
+    .icon img{
+        width: 18%;
+        height: 18%;
     }
     footer{
         padding: 10px;
